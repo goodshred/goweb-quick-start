@@ -40,7 +40,7 @@ api-模块：go gin框架：https://gin-gonic.com/zh-cn/docs/quickstart/
 
 - 包含testing包的init不会被执行
 
-![img](doc/FILES/init_exec_order.png)
+![img](./doc/FILES/init_exec_order.png)
 
 ## gorm会自动关闭数据库连接吗
 与sql.DB句柄一样，gorm.DB对象也是可以重用的。您很少需要显式地关闭这些对象。只需创建一次并重用它即可。
